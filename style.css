@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+    margin:0;
+    background-color: rgb(177, 177, 177);
+    display: grid;
+    align-content: center;
+}
+
+.instructions{
+    padding-left:0.5%;
+    padding-right: 0.5%;;
+}
+
+h1 {
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+ 
+  width:99%;
+  height: 300px;
+  color: grey;
+  border-radius: 10px;
+  padding: 20px;
+  border:none;
+
+}
+
+.buttons-row{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+button {
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  border:none;
+  cursor: pointer;
+  width:49.5%;
+}
+
+button:hover{
+
+}
+
+button:active{
+
+
+}
