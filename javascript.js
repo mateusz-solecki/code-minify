@@ -1,20 +1,6 @@
 let backup = [];
 
 const CHARS_TO_REMOVE = [' ', '\n', '\t', '44'];
-0 => ' '
-1 => '\n'
-2 => '\t'
-3 => '44'
-
-' = ' => '='
-', ' => ','
-
-
-const s = ' hey { = = = = }'
-const s = ' hey {== ==}'
-const s = ' hey{===}'
-
-const s = 'what\'s your "nick-name"'
 
 // const BUFFER_LENGTH = 5000;
 
